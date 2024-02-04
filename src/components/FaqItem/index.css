@@ -1,0 +1,52 @@
+/* Write your code here. */
+.question-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-icon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+* {
+  font-family: 'Roboto';
+}
+
+.faq-container {
+  border: 2px solid #d7dae6;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 70vw;
+  list-style-type: none;
+}
+.question-text {
+  font-size: 20px;
+  color: #52606d;
+}
+
+.answer-text {
+  font-size: 15px;
+  color: #9aa5b1;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 991px) {
+  .question-text {
+    font-size: 13px;
+    width: 80%;
+  }
+  .answer-text {
+    font-size: 10px;
+  }
+}
+.section-divider {
+  border-color: #e4e7eb;
+}
+
+.hide-answer {
+  display: none;
+}
